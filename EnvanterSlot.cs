@@ -45,7 +45,7 @@ public class EnvanterSlot : MonoBehaviour , IPointerDownHandler
     }
 
 
-    // taþýma iþlemi
+    // taÃ¾Ã½ma iÃ¾lemi
 
     public void OnPointerDown(PointerEventData Data)
     {
@@ -53,16 +53,10 @@ public class EnvanterSlot : MonoBehaviour , IPointerDownHandler
         {
             if (!env.tasimaAcik && item.itemismi != null)
             {
-                env.itemss[slotsayi] = new Item();// týkladýðýmýz yeri boþ obje yap
-                env.tasimapanelaç(item);
+                env.itemss[slotsayi] = new Item();// tÃ½kladÃ½Ã°Ã½mÃ½z yeri boÃ¾ obje yap
+                env.tasimapanelaÃ§(item);
             }
-            //else if (env.tasimaAcik)
-            //{
-            //    if (item.itemismi == null && env.tasinanitem.itemtipi == Item.ItemType.malzeme)
-            //    {
-            //        env.itemss[Carslot] = env.tasinanitem;
-            //    }
-            //}
+            
             else if (env.tasimaAcik)
             {
                 if (item.itemismi == null)
@@ -75,7 +69,7 @@ public class EnvanterSlot : MonoBehaviour , IPointerDownHandler
                 {
                     if (item.itemismi == env.tasinanitem.itemismi)
                     {
-                        if (item.itemtipi == Item.ItemType.yiyecek || item.itemtipi == Item.ItemType.malzeme || item.itemtipi == Item.ItemType.yapý)
+                        if (item.itemtipi == Item.ItemType.yiyecek || item.itemtipi == Item.ItemType.malzeme || item.itemtipi == Item.ItemType.yapÃ½)
                         {
                             env.itemss[slotsayi].itemmiktar += env.tasinanitem.itemmiktar;
                             env.tasimapanelkapat();
