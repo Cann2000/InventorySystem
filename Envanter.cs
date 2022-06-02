@@ -45,7 +45,7 @@ public class Envanter : MonoBehaviour
                 tasimapanel.transform.GetChild(1).gameObject.GetComponent<TextMeshProUGUI>().enabled = true;
                 tasimapanel.transform.GetChild(1).gameObject.GetComponent<TextMeshProUGUI>().text = tasinanitem.itemmiktar.ToString();
             }
-                        else
+            else
             {
                 tasimapanel.transform.GetChild(1).gameObject.GetComponent<TextMeshProUGUI>().enabled = false;
             }
@@ -63,9 +63,9 @@ public class Envanter : MonoBehaviour
 
             Item yeni_item = new Item(dataitem.items[i].itemid, dataitem.items[i].itemismi, miktar, dataitem.items[i].itemdepomiktar, dataitem.items[i].itemhasar, dataitem.items[i].itemtipi);
 
-            if (yeni_item.itemtipi == Item.ItemType.yiyecek || yeni_item.itemtipi == Item.ItemType.malzeme || yeni_item.itemtipi == Item.ItemType.yapý || yeni_item.itemtipi == Item.ItemType.saðlýk)
+            if (yeni_item.itemtipi == Item.ItemType.yiyecek || yeni_item.itemtipi == Item.ItemType.malzeme || yeni_item.itemtipi == Item.ItemType.yapÃ½ || yeni_item.itemtipi == Item.ItemType.saÃ°lÃ½k)
             {
-                slotunüzerineekle(yeni_item);
+                slotunÃ¼zerineekle(yeni_item);
             }
 
             else if (yeni_item.itemmiktar > 1)
@@ -85,7 +85,7 @@ public class Envanter : MonoBehaviour
         }
     }
 
-    public void slotunüzerineekle(Item item)
+    public void slotunÃ¼zerineekle(Item item)
     {
         for (int i = 0; i < itemss.Count; i++)
         {
@@ -101,19 +101,19 @@ public class Envanter : MonoBehaviour
         }
     }
 
-    public void BosSlotItemEkle(Item ýtem)
+    public void BosSlotItemEkle(Item Ã½tem)
     {
         for (int i = 2; i < itemss.Count; i++)
         {
             if (itemss[i].itemismi == null)
             {
-                itemss[i] = ýtem;
+                itemss[i] = Ã½tem;
                 break;
             }
         }
     }
 
-    public void tasimapanelaç(Item item)
+    public void tasimapanelaÃ§(Item item)
     {
         tasimaAcik = true;
         tasinanitem = item;
