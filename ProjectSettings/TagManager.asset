@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Fire
+  - "data\u0131tem"
+  - envanter
+  - dusman
+  - objesp
+  - obje
+  - soket
+  - platform
+  - duvarsoket
+  - terrain
+  - "\xE7at\u0131soket"
+  - "\xE7at\u0131soketduvar"
+  - "platform\xE7at\u0131"
+  - "a\u011Fa\xE7"
+  - Tiger
+  - "d\xFCsmangiremez"
+  - craftingimage
+  - balta
+  - LootSpawn
+  - "sand\u0131k"
+  - platformduvar
+  - "sand\u0131ka\xE7yaz\u0131"
+  - lamba
+  - "envanter_sand\u0131k"
+  - previews
+  - "Kap\u0131 \xC7er\xE7eve"
+  - "soket_\xE7er\xE7eve"
+  - "Kap\u0131\u0131"
+  - "Kap\u0131"
+  - "kap\u0131_soket"
+  - "bal\u0131k_control"
+  - "bal\u0131k"
+  - buttonye
+  - buttonexit
+  - ButtonYiyecek
+  - HealtBar
+  - "m\u0131zrak"
+  - "m\u0131zrakspawn"
+  - "A\xE7l\u0131kBar"
+  - SuBar
+  - "buttonba\u015Fla"
+  - "Ba\u015Flang\u0131\xE7Ekran\u0131"
+  - baslagicekrani
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

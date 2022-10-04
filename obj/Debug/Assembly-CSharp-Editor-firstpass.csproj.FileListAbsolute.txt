@@ -1,0 +1,2 @@
+D:\Envanter Sistemi\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
+D:\Envanter Sistemi\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
