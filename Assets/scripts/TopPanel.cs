@@ -34,7 +34,7 @@ public class TopPanel : MonoBehaviour
             SetIcon(2);
 
         }        
-        if (Input.GetKeyDown(KeyCode.Alpha3))
+        if (Input.GetKeyDown(KeyCode.Alpha4))
         {
 
             SetIcon(3);

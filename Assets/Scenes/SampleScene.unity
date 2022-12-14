@@ -352,10 +352,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Slots:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 677501909}
+  - {fileID: 1083133172}
+  - {fileID: 738050009}
+  - {fileID: 1521316421}
   EmptySlot: {fileID: 21300000, guid: 3c02bde9df6365740aee0d13bc205590, type: 3}
   SelectedSlot: {fileID: 21300000, guid: 81552d8cc6ee0ce46b59ca7d338dd3aa, type: 3}
 --- !u!114 &161256594
@@ -562,6 +562,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &677501909 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1583854977690884217, guid: 221578967caf9454d9b111ad30910119, type: 3}
+  m_PrefabInstance: {fileID: 815292173}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,6 +661,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -85.7, y: 0, z: -220.32}
+--- !u!1 &738050009 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1583854977690884217, guid: 221578967caf9454d9b111ad30910119, type: 3}
+  m_PrefabInstance: {fileID: 30444188}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &777520499
 GameObject:
   m_ObjectHideFlags: 0
@@ -732,10 +742,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 25
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -881,6 +891,11 @@ PrefabInstance:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6738204041334542949, guid: 221578967caf9454d9b111ad30910119, type: 3}
   m_PrefabInstance: {fileID: 815292173}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1083133172 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1583854977690884217, guid: 221578967caf9454d9b111ad30910119, type: 3}
+  m_PrefabInstance: {fileID: 1110495293}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1110495293
 PrefabInstance:
@@ -1544,6 +1559,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1456853127}
   m_CullTransparentMesh: 1
+--- !u!1 &1521316421 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1583854977690884217, guid: 221578967caf9454d9b111ad30910119, type: 3}
+  m_PrefabInstance: {fileID: 1891681151}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1596752638
 GameObject:
   m_ObjectHideFlags: 0
