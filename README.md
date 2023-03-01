@@ -1,8 +1,7 @@
 # InventorySystem
 
 
-https://user-images.githubusercontent.com/94134588/208335596-3f696a38-45e5-4618-ba4f-9f8739d846bc.mp4
-
+https://user-images.githubusercontent.com/94134588/222031780-ef971f5a-dbf7-4f08-ab71-80c95335d038.mp4
 
 ![e](https://user-images.githubusercontent.com/94134588/206932989-c3beef42-a385-4c8d-9c1e-f24623ccc5ed.png)
 
